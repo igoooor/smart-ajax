@@ -1,0 +1,33 @@
+{
+    "name": "ibrows/smart-ajax",
+    "type": "library",
+    "description": "Smart Ajax Bundle  for to handle your ajax requests",
+    "keywords":  ["Smart", "Ajax", "inline-edit", "Bundle", "symfony2", "form", "redirect"],
+    "homepage": "https://github.com/ibrows/smartAjax",
+    "license": "MIT",
+    "suggest": {
+        "symfony/symfony": "~2.1|3.4.*"
+    },
+    "authors": [
+        {
+            "name": "iBROWS AG",
+            "email": "info@ibrows.ch"
+        },
+        {
+            "name": "Marc Steiner",
+            "email": "marc.steiner@ibrows.ch"
+        },
+        {
+            "name": "Mike Meier",
+            "email": "mike.meier@ibrows.ch"
+        },
+        {
+            "name": "Dominik Spengler",
+            "email": "dominik.spengler@ibrows.ch"
+        }
+
+    ],
+    "autoload": {
+        "psr-4": { "Ibrows\\SmartAjaxBundle\\": "" }
+    }
+}
